@@ -71,3 +71,39 @@ a{
     left: 90%;
     transform: translate(-90%, -50%);
 }
+.section1Button h1, h2 {
+    font-family:Roboto;
+	font-weight: bold;
+	margin: 0px;
+    line-height: 60px;
+	font-size: 4rem;
+	text-shadow: 2px 2px 10px rgba(0,0,0,0.08);
+	letter-spacing: 3px;
+    color:#3D3D4A;
+    text-transform: uppercase;
+}
+span {
+    color:	#7A72FF;
+}
+.section1Button h1{
+    letter-spacing:28px;
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    background-color: #2f2e41;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
+	margin-top: 20px;
+	color:#fff;
+	font-family: calibri;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	font-size: 1rem;
+    outline: none;
+    cursor: pointer;
+    border: transparent !important;
+}
